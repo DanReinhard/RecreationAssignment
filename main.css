@@ -1,0 +1,80 @@
+html, body, p, h3, a {
+    margin: 0;
+    padding: 0;
+}
+.top {
+    height: 50px;
+    background-color: orange;
+}
+.right-links {
+    padding: 15px;
+    float: right;
+    color: black;
+}
+
+h3 {
+    padding: 10px;
+    float: left;
+}
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: lightyellow;
+
+}
+.first-column {
+    background-color: rgb(252, 250, 250);
+    width: 300px;
+    height: 330px;
+    border: 1px solid black;
+    padding: 20px 10px;
+    margin: 30px 30px;
+    float: left;
+    position: relative;
+}
+.second-column {
+    background-color: rgb(252, 250, 250);
+    width: 300px;
+    height: 330px;
+    border: 1px solid black;
+    padding: 20px 10px;
+    margin: 30px 30px;
+    float: left;
+    position: relative;
+}
+p {
+    padding: 0px 10px;
+    font-size: 15px;
+}
+.third-column {
+    background-color: rgb(252, 250, 250);
+    width: 300px;
+    height: 330px;
+    border: 1px solid black;
+    padding: 20px 10px;
+    margin: 30px 30px;
+    float: left;
+    position: relative;
+}
+.final-column {
+    background-color: rgb(252, 250, 250);
+    width: 300px;
+    height: 330px;
+    border: 1px solid black;
+    padding: 20px 10px;
+    margin: 30px 30px;
+    float: left;
+    position: relative;
+}
+.Moreinfo {
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 20px;
+    left: 110px;
+    background-color: orange;
+}
+.all {
+    max-width: 1600px;
+    clear: both;
+    margin: 0 auto;
+}
