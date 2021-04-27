@@ -1,86 +1,51 @@
-html, body, p, h3, a {
-    margin: 0;
-    padding: 0;
+
+#first-section {
+    background-image: url(green-vegetables-on-brown-wooden-chopping-board-3952047.jpg);
+    color: lightgray;
+    width: auto;
+    height: 650px;
 }
-.top {
-    height: 50px;
-    background-color: orange;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
-    
-}
-.bob {
-    padding-top: 15px;
-}
-.right-links {
-    padding: 15px;
+h2 {
     color: black;
 }
+.top {
+    display: flex;
+    justify-content: space-between;
 
-h3 {
-    padding: 10px;
+}
+h3{
+    display: flex;
+    justify-content: flex-start;
+}
+#topright {
+    display: flex;
+    justify-content: right;
+    
 }
 body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: lightyellow;
-
+    margin: 0;
 }
-.first-column {
-    background-color: rgb(252, 250, 250);
-    width: 300px;
-    height: 330px;
-    border: 1px solid black;
-    padding: 20px 10px;
-    margin: 30px 30px;
-    position: relative;
+#first-section h1 {
+    color: white;
+    font-size: 75px;
 }
-.second-column {
-    background-color: rgb(252, 250, 250);
-    width: 300px;
-    height: 330px;
-    border: 1px solid black;
-    padding: 20px 10px;
-    margin: 30px 30px;
-    position: relative;
+#second-section {
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    padding: 0;
 }
-p {
-    padding: 0px 10px;
-    font-size: 15px;
+img {
+   width: 300px;
+   height: auto;
 }
-.third-column {
-    background-color: rgb(252, 250, 250);
-    width: 300px;
-    height: 330px;
-    border: 1px solid black;
-    padding: 20px 10px;
-    margin: 30px 30px;
-    position: relative;
-}
-.final-column {
-    background-color: rgb(252, 250, 250);
-    width: 300px;
-    height: 330px;
-    border: 1px solid black;
-    padding: 20px 10px;
-    margin: 30px 30px;
-    position: relative;
-}
-.Moreinfo {
-    text-align: center;
-    padding: 10px;
-    position: absolute;
-    bottom: 20px;
-    left: 110px;
-    background-color: orange;
-}
-.all {
-    max-width: 1600px;
-    clear: both;
-    margin: 0 auto;
+#center {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
-    align-content: space-around;
+    align-content: center;
+}
+.fade {
+    background-color: rgba(0,0,0,0.2);
+    height: 100%;
 }
