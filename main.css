@@ -43,7 +43,7 @@ body {
     padding: 0;
 }
 img {
-   width: 400px;
+   width: 40%;
    height: auto;
 }
 .center {
@@ -86,7 +86,24 @@ hr {
     justify-content: space-between;
 }
 .content {
-    margin: 30px 30px;
-    width: 500px;
+    width: 60%;
     height: auto;
+}
+.pastatext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.breadtext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.pinetext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
