@@ -1,4 +1,7 @@
-
+html, body, h3 {
+    margin: 0;
+    padding: 0;
+}
 #first-section {
     background-image: url(green-vegetables-on-brown-wooden-chopping-board-3952047.jpg);
     color: lightgray;
@@ -6,16 +9,19 @@
     height: 650px;
 }
 h2 {
-    color: black;
+    color: white;
+    margin: 30px 20px;
+    font-family: 'Krona One', sans-serif
 }
 .top {
     display: flex;
     justify-content: space-between;
-
+    align-items: center;
+    background-color: rgba(1,1,1,0.5);
 }
 h3{
-    display: flex;
-    justify-content: flex-start;
+    padding-left: 10px;
+    margin: 5px 0;
 }
 #topright {
     display: flex;
@@ -28,6 +34,7 @@ body {
 #first-section h1 {
     color: white;
     font-size: 75px;
+    margin: 200px auto 0 auto;
 }
 #second-section {
     background-color: black;
@@ -36,16 +43,50 @@ body {
     padding: 0;
 }
 img {
-   width: 300px;
+   width: 400px;
    height: auto;
 }
-#center {
+.center {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-content: center;
+    align-items: center;
+    flex-flow: column;
 }
 .fade {
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0,0,0,0.5);
     height: 100%;
+}
+p {
+    padding: 10px 5px;
+    margin: 5px 0;
+}
+hr {
+    width: 300px;
+}
+.pineapple {
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-between;
+}
+.img1 {
+    align-self: flex-start;
+    height: 100%;
+}
+.bread {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    justify-content: space-between;
+
+}
+.pasta {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    justify-content: space-between;
+}
+.content {
+    margin: 30px 30px;
+    width: 500px;
+    height: auto;
 }
